@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+	<head>
+		<title>Seip form make</title>
+		<link rel="stylesheet" href= "assets/css/style.css " >
+	</head>
+	<body>
+		<h1>Registration for SEIP Project</h1>
+			<hr/>
+		<p>Select Course:(In SEIP project one person will be eligible for one course only)</p>
+		
+		<form action="" method="get">		
+			<label for="course">First Preference*</label>
+				<select name="course" id="course">
+					<option value="">Select Course</option>
+					<option value="2D 3D">2D&3D Animation</option>
+					<option value="web">Web Design</option>
+					<option value="wp">Wordpress Theme Customization</option>
+					<option value="php">Web Development - PHP</option>
+					<option value="python">Web Developemnt - Python</option>
+				</select>
+			<hr/>
+				<label for="name" size="4">Name:*</label>
+				<input type="text"/>
+			<hr/>
+				<label>Father Name:*</label>
+				<input type="text"/>
+				<label>Mother Name:*</label>
+				<input type="text"/>
+				<label>Gender:*</label>
+				<input type="radio" id="Female" name="Gender" value="Female"/><label for="Female"Female/>
+				<label for="male">Female</label>
+				<input type="radio" id="male" name="Gender" value="male">
+  				<label for="male">Male</label><br>
+			<hr/>
+				<label for="National ID">National ID:</label>
+				<input type="text"/>			
+			<hr/>
+				<label for="Date of Birth">Date of Birth:*</label>
+				<input type="text"/>	
+				<label>Religion:</label>
+				<input type="radio" id="Islam" name="Islam" value="Islam"/><label for="Islam"Islam/>
+				<label for="Islam">Islam</label>	
+				<input type="radio" id="Hindu" name="Islam" value="Hindu"/>
+				<label for="Hindu"/>Hindu</label>
+			<hr/>
+				<label for="Mobile">Mobile:*</label>
+				<input type="tel"/>
+				<label for="Email">Email:</label>
+				<input type="email"/>
+			</br>
+			</br>	
+				<fieldset>
+						<legend align="center"><b>Present Address</b></legend>
+						<label for="Address">Address:*</label>
+						<input type="text"/>
+						<hr/>
+						<label for="City">City:*</label>
+						<input type="text"/>
+						<label for="Post Code:">Post Code:</label>
+						<input type="number"/>
+					<hr/>
+						<label for="Division">Division:*</label>
+						<select name="Division" id="Division"/>
+							<option value="" readonly="readonly" >Select Division</option>
+							<option value="Dhaka">Dhaka</option>
+							<option value="Barishal">Barishal</option>
+							<option value="Khulna">Khulna</option>
+					<hr/>
+					<hr/>
+						<label>Education Ceritificate</label>
+						<input type="file" name="education_certificate" accept="image/*" multiple="multiple"/>
+					<hr/>
+						<label>picture</label>
+						<input type="file" name="picture" accept="image/*"/>
+					<hr/>
+					<hr/>
+						
+						<label>Write your Comment</label>
+						<textarea name="comment" rows="10" cols="60"></textarea>
+						
+					<hr/>
+			<	/fieldset>		
+		</form>
+				
+	</body>
+	
+	
+	
+</html>

@@ -1,0 +1,301 @@
+body{
+	margin: 0px;
+}
+/* header section start */
+header{
+	height: 150px;
+	width: 100%;
+	background: #CCCCCC;
+}
+.header-inner{
+	height: 100%;
+	width: 70%;
+	background: #F5F5F5;
+	
+	box-sizing: border-box;
+	
+	margin: 0px auto;
+	
+	padding: 35px 10px 0px 10px;
+}
+.header-inner h1{
+	margin: 0px 0px 6px 0px;
+	color: #323232;
+	font-size: 38px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-family: "century gothic", arial, sans-serif;
+}
+.header-inner h1 a{
+	color: #00C6F0;
+	text-decoration: none;
+}
+.header-inner p{
+	margin: 0px;
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "century gothic", arial, sans-serif;
+}
+/* header section end */
+
+/* nav section start */
+nav{
+	width: 100%;
+	height: 50px;
+	background: #CCCCCC;
+}
+.nav-inner{
+	width: 70%;
+	height: 100%;
+	background: #DDDDDD;
+	
+	margin: 0px auto;
+	
+	padding: 10px 10px;
+	
+	box-sizing: border-box;
+}
+.nav-inner ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.nav-inner ul li{
+	list-style: none;
+	margin: 0px 0px 0px 10px;
+	display: inline-block;
+}
+.nav-inner ul li a{
+	color: #fff;
+	background: #BBBBBB;
+	padding: 6px 20px;
+	display: inline-block;
+	text-decoration: 0px;
+	font-family: "trebuchet ms", sans-serif;
+}
+/* nav section end */
+
+/* banner-section start */
+.banner-section{
+	width: 100%;
+	height: 200px;
+	margin: 20px 0px;
+}
+.banner-inner{
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+	border: 10px solid #DDDDDD;
+	box-sizing: border-box;
+	/* 
+	background: url(../photos/banner.jpg) no-repeat;
+	background-size: cover; */
+}
+.banner-inner img{
+	width: 100%;
+	height: 100%;
+}
+/* banner-section end */
+
+/* main section start */
+main{
+	width: 100%;
+	height: 600px;
+	background: #fff;
+}
+.main-inner{
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+	background: #fff;
+}
+aside{
+	width: 25%;
+	height: 100%;
+	margin-right: 5%;
+	float: left;
+	clear: right;
+}
+.latest-news{
+	width: 100%;
+	height: auto;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+}
+.latest-news h2{
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+	margin: 0px 0px 20px 0px;
+}
+.latest-news h3{
+	color: #009fbc;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+	margin: 0px;
+}
+.latest-news small{
+	color: #888888;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+}
+.latest-news p{
+	color: #555555;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "trebuchet ms", arial, sans-serif;
+	margin: 20px 0px 0px 0px;
+}
+.latest-news a{
+	color: #009fbc;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "trebuchet ms", arial, sans-serif;
+}
+.useful-link{
+	width: 100%;
+	height: auto;
+	padding: 20px 10px;
+	margin: 20px 0px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+}
+.useful-link h2{
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+	margin: 0px 0px 20px 0px;
+}
+.useful-link ul{
+	margin: 0px;
+	padding: 0px;
+}
+.useful-link ul li{
+	list-style: url(../photos/bullet.png) inside circle;
+}
+.useful-link ul li a{
+	color: #009fbc;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "trebuchet ms", arial, sans-serif;
+}
+.search-box{
+	width: 100%;
+	height: auto;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+}
+.search-box h2{
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+	margin: 0px 0px 20px 0px;
+}
+.search-box ul{
+	padding: 0px;
+}
+.search-box ul li{
+	list-style: none;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.search-box ul li:first-child{
+	width: 75%;
+}
+.search-box ul li input{
+	width: 100%;
+	padding: 5px;
+	display: inline-block;
+}
+.search-box ul li i{
+	display: inline-block;
+    padding: 5px;
+}
+.search-box ul li button{
+	cursor: pointer;
+}
+article{
+	width: 70%;
+	height: 100%;
+	float: left;
+	clear: right;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+article h2{
+	color: #000;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+	margin: 0px;
+}
+article p{
+	color: #555555;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "trebuchet ms", arial, sans-serif;
+}
+article h3{
+	color: #009fbc;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "century gothic", arial;
+	margin: 0px;
+}
+article ul{
+	margin: 0px;
+	padding: 0px;
+}
+article ul li{
+	color: #555555;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "trebuchet ms", arial, sans-serif;
+	list-style: url(../photos/bullet.png) inside circle;
+}
+/* main section end */
+
+/* footer section start */
+footer{
+	width: 100%;
+	height: 100px;
+	background: #CCCCCC;
+	margin-top: 40px;
+}
+.footer-inner{
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+.footer-inner p{
+	color: #000;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "trebuchet ms", arial, sans-serif;
+	margin: 0px 0px 5px 0px;
+}
+.footer-inner p a{
+	color: #009fbc;
+	text-decoration: none;
+}
+/* footer section end */

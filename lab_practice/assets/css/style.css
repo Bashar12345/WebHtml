@@ -1,0 +1,63 @@
+
+body
+{
+	background-color: whitesmoke ;
+	margin: 10vw;
+	/* background-image: url("../cv_pic.jpg"); */
+	/* background-size: 60vh 40vw;
+	background-repeat: no-repeat;
+	background-position : center;
+	backdrop-filter: blur(7px); */
+}
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 8px #00000086, -2px -2px 8px #00000086;
+	letter-spacing: 3px;
+	font-family: original ;
+
+}
+hr{
+	border: 3px solid #003C53;
+    border-radius: 5px;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.329);
+}
+p{
+	color: #003C53;
+	text-align: left;
+	text-indent: 50px;
+	text-shadow: 3px 2px 8px darkgray;
+	word-spacing: 2px;
+	line-height: 1.5;
+	letter-spacing: 0.3px;
+	font-family: roboto;
+}
+.intro
+{
+  text-align: right; 
+ /* justify-content: center; */
+ /* text-indent: 500px; */
+ 
+}
+span
+{
+	text-transform: capitalize;
+	font-family: Brawler;
+	letter-spacing: -1px;
+	
+}
+
+div img{
+	height: 22vh;
+	width: 25vw;
+	padding: 5px;
+	margin-left: 2vw;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.336);
+}
+p.details
+{
+	text-align:justify;
+	word-spacing: 1px;
+}
