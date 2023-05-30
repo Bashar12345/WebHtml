@@ -24,10 +24,29 @@
     </header>
     <main id="main">
         <section class="hero">
-
-
-            <div class="wrapper">
-            <h1>    Nice to meet you ! I am Muhammad Abul Bashar. </h1>
+            <div class="wrapper hero_wrapper">
+                <picture class="hero_image">
+                    <source
+                    media="(min-width: 62.5em)"
+                    srcset="/assets/image/pics/cv_pic_desktop.png"
+                    />
+                    <source
+                    media="(min-width: 37.5em)"
+                    srcset="/assets/image/pics/cv_pic_tablet.png"
+                    />
+                    <img
+                    src="/assets/image/pics/cv_pic_mobile.png"
+                    width="173"
+                    height="383"
+                    alt="Picture of Bashar"
+                    title="cv_pic"
+                    />
+                </picture>
+                <div class="hero_text">
+                    <h1 class="hero_headline">Nice to meet You! I'm Abul Bashar.</h1>
+                    <p class="hero_description">Based in the Bangladesh, I'm a Full stack developer passionate about building accessibe web apps that users love.</p>
+                    <a href="#" class="hero_contact">Contact Me</a>
+                </div>
             </div>
         </section>
 
