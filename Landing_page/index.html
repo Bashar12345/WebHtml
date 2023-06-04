@@ -25,27 +25,32 @@
     <main id="main">
         <section class="hero">
             <div class="wrapper hero_wrapper">
-                <picture class="hero_image">
-                    <source
-                    media="(min-width: 62.5em)"
-                    srcset="/assets/image/pics/cv_pic_desktop.png"
+            <!-- <div class=" hero_wrapper"> -->
+                <picture >
+                    <source media="(min-width: 62.5em)"
+                    srcset="assets/image/pics/cv_pic_desktop.png"
                     />
-                    <source
-                    media="(min-width: 37.5em)"
-                    srcset="/assets/image/pics/cv_pic_tablet.png"
+                    <source media="(min-width: 37.5em)"
+                    srcset="assets/image/pics/cv_pic_tablet.png"
                     />
-                    <img
-                    src="/assets/image/pics/cv_pic_mobile.png"
+                    <img class="hero_image" src="assets/image/pics/cv_pic_mobile.png"
                     width="173"
                     height="383"
                     alt="Picture of Bashar"
                     title="cv_pic"
                     />
                 </picture>
+                <img class="hero_rings" src="/assets/svg/pattern-rings.svg" 
+                alt="" 
+                width="530" 
+                height="129" >
+                <img class="hero_circle" src="assets/svg/pattern-circle.svg"
+                width="129" 
+                height="129">
                 <div class="hero_text">
-                    <h1 class="hero_headline">Nice to meet You! I'm Abul Bashar.</h1>
+                    <h1 class="hero_headline">Nice to meet You! I'm <span> Abul Bashar</span>.</h1>
                     <p class="hero_description">Based in the Bangladesh, I'm a Full stack developer passionate about building accessibe web apps that users love.</p>
-                    <a href="#" class="hero_contact">Contact Me</a>
+                    <a href="#" class="hero_contact underline">Contact Me</a>
                 </div>
             </div>
         </section>

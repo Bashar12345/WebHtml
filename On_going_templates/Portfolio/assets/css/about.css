@@ -1,0 +1,185 @@
+.about{
+	/* padding: 48px 0px; */
+	padding-top: 48px;
+	padding-bottom: 48px;
+	/* background: #f8f8f8; */
+}
+.about_2_back{
+	background: #f8f8f8;
+
+}
+
+.about_me{
+	display: block;
+	padding: 48px 5px;
+	background: var(--white-color);
+}
+
+.about_for_you{
+	width: 100%;
+}
+
+
+.about_me_inner{
+	justify-content: center;
+	align-items: center;
+	padding-right: 48px ;
+	padding-left: 15px;
+}
+
+.about_pic{
+	flex: 1 1 100%;
+	padding-right: 48px ;
+	padding-left: 12px;
+}
+
+.about_pic img{
+	
+	max-width: 100%;
+
+}
+
+.bio_section{
+	flex: 1 1 100%;
+}
+
+.bio_section h6{
+	color: var(--text-color-soft);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 28px;
+
+}
+.bio_section h3{
+	color:#404044;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 40px;
+}
+.bio_section span{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 1.2rem;
+	min-width: 60px;
+	
+}
+
+.bio_section p{
+	margin: 24px 0px;
+	line-height: 28px;
+}
+
+.bio_section .btn{
+	/* margin-top: 48px; */
+	margin-right: 8px;
+	
+}
+
+.bio_section .btn2{
+	/* margin-top: 48px; */
+	margin-right: 8px;
+	background: #00C16E;	
+}
+
+.follow_social{
+	/* margin-top: 48px; */
+	display: block;
+}
+
+.follow_social ul{
+	display: inline-block;
+}
+.follow_social ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.follow_social h5{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 20px;
+	color: var(--secondary-color);
+}
+
+
+
+.my_info{
+	padding-top: 30px;
+	border-top: 1px solid #eee;
+
+}
+
+.my_info span{
+	text-align: justify;
+	margin-right: 3px;
+	line-height: 1.6;
+}
+.my_info span.name_span{
+	margin-right: 24px;
+}
+
+
+.my_info span p{
+	display: inline-block;
+	margin: 0px;
+	font-size: large;
+}
+.my_info span a{
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+}
+
+.about_for_you h3{
+	font-size: 32px;
+	color: var(--secondary-color);
+	text-align: center;
+	display: block;
+	margin-top: 40px;
+	margin-inline: 6.25rem;
+	margin-bottom: 35px;
+
+}
+
+.card_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pad-12{
+	padding: 0px 12px;
+}
+.about_for_you .card{
+	background: var(--white-color);
+    padding: 40px;
+	margin-inline: 12px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+
+}
+
+.about_for_you span.icon{
+	display: block;
+	/* padding: 4px; */
+	font-size: 40px;
+	margin-bottom: 22px;
+	color: #007e6a;
+
+}
+
+
+.about_for_you a{
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 1rem;
+	color: #007e6a;
+}
+
+.about_for_you p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: var(--text-color-soft);
+}
