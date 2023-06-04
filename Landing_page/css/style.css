@@ -25,6 +25,10 @@ html{
   box-sizing: inherit;
 }
 
+h1, h2, h3, p{
+  margin: 0px; 
+}
+
 /* body start */
 body {
   margin: 0px;
@@ -34,7 +38,6 @@ body {
   background-color: var(--bg-boby);
   font-size: var(--fs-18);
   line-height: 1.56;
-
 
 }
 /* body end */
@@ -61,6 +64,62 @@ font-size: clamp(1.5rem, 1.0229007633587786rem + 2.035623409669211vw, 2rem);
 color: var(--taxt1);
 flex: 1 0 100%;
 }
+ 
+/* hero section start */
+.hero{
+
+}
+.hero_wrapper{
+  position: relative;
+}
+.hero_image{
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  outline: 2px solid lime;
+
+  
+}
+.hero_text{
+  
+}
+.hero_headline{
+
+}
+.hero_contact{
+  
+}
+.hero_description{
+
+}
+/* hero section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Tablet breakpoint */
 @media (min-width: 37.5em){ /* 600px */
@@ -115,5 +174,5 @@ svg:hover path{
 }
 
 img{
-  background: #d9d9d9;
+  /* background: var(--bg-boby); */
 }
