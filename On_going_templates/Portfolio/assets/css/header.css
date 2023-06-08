@@ -4,6 +4,7 @@
 /* header section start  */
 header{
 	width: 100%;
+	padding-top: 110px;
 	background: linear-gradient(  var(--bg-layer), var(--bg-layer) ),url(/assets/images/banner1.jpg);
 	background-size: cover;
 }
@@ -49,12 +50,26 @@ font-size: 2rem;
 
 }
 
-
+/* 
 .header_poster{
 
-}
+} */
 
 /* nav section start */
+.sticky {
+	position: fixed;
+	top: 0;
+	background-color: rgba(7, 34, 39, 0.856);
+	width: 100%;
+	padding: 0px;
+    border-bottom: none;
+    /* z-index: 9 !important; */
+    background: rgba(6, 31, 36, 0.9);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    height: 110px;
+  }
+  
+
 
 nav{
 	margin: 0px 0px 0px 0px;
@@ -68,6 +83,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	padding: 8px;
+	
 
 }
 

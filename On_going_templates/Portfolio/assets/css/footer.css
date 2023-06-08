@@ -8,6 +8,7 @@ footer{
 
 .footer_contact{
     padding: 48px 0px;
+    text-align: center;
 
 }
 .footer_logo {
@@ -26,7 +27,7 @@ footer{
 
 .footer_contact ul{
     display: inline-block;
-    margin-inline: 19%;
+    /* margin-inline: auto; */
     box-sizing: border-box;
 }
 .footer_contact ul li{
@@ -48,27 +49,33 @@ footer{
 
 .social-link{
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .copyright .content p{
-    color:var(--white-color);
+    color: #aaa;
 	font-style: normal;
 	font-Weight:400;
-	font-Size: 18px;
+	font-Size: 16px;
 	line-height:28px;
+    width: 70%;
 }
 .social-link li{
     display: inline-block;
     list-style: none;
-    margin-left: 40px;
+    margin-left: 20px;
+    width: 32px;
     box-sizing: border-box;
     color: #ffffff;
 }
 
 .social-link ul li{
-    color: #ffffff;
-    padding: 3px;
+    /* color: #ffffff; */
+    padding: 2px;
+    /* font-size: 13px;
+    line-height: 42px;
+    background: #061f24;
+    color: #aaa; */
 }
 
 .brands_client{

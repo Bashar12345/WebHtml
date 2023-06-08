@@ -1,0 +1,61 @@
+.skills{
+        /* background: var(--bg-white); */
+        padding: 48px 0px;
+    
+}
+.skills_poster{
+
+}
+.my_skills{
+
+}
+
+.my_skills h6{
+	color: var(--text-color-soft);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 28px;
+    margin-bottom: 5px;
+
+}
+.my_skills h3{
+	color:#404044;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 40px;
+}
+
+.my_skills p{
+    font-size: 18px;
+	margin-top: 24px;
+    margin-bottom: 48px;
+	line-height: 28px;
+}
+
+
+.skills_poster{
+	flex: 1 1 100%;
+	padding-right: 48px ;
+	padding-left: 12px;
+}
+
+.skills_poster img{
+	
+	max-width: 100%;
+
+}
+
+.my_skills{
+	flex: 1 1 100%;
+}
+
+/* .bio_section span{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 1.2rem;
+	min-width: 60px;
+	
+} */
