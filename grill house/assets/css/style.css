@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+:root{
+    --theme_color: #e1b838;
+    --overlay_color: #262626;
+    --fjalla-font: 'Fjalla One', sans-serif;
+}
+
+
+.container{
+    min-width: 400px;
+    max-width: 1439px;
+}
+/* .d-flex{
+    display: flex;
+} */
+.div{
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--overlay_color);
+    color: var(--theme_color);
+}
+/* ul{
+ padding: 0;
+ margin: 0;   
+} */
+.header{
+    
+}
+
+
+.nav-link{
+    padding: 0;
+    margin: 0; 
+    /* margin-left: 1rem; */
+    display: block;
+    box-sizing: border-box;
+    padding-block: 1.2rem;
+    padding-inline-start: 1.9rem ;
+    text-decoration: none;
+    text-align: center;
+    color:var(--theme_color)
+}
+.navbar-nav a.active{
+    color: var(--overlay_color);
+    background-color: var(--theme_color);
+    font-weight: 700;
+}
+
+.navbar-nav {
+    border: 2px solid var(--theme_color);
+   
+    
+}
+
+
+
+.menu_inner{
+    background-image: url(../imgesa/Background.png) , linear-gradient(to right, rgba(0,0,0,.3), rgba(0,0,0,1)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu_inner .menu_title{
+    font-family: var(--fjalla-font);
+    font-size: 45pt;
+    color: white;
+    text-shadow: 2px 8px 15px black ;
+}
+
+.menu_content{
+    border: 2px solid var(--theme_color);
+    /* text-align: center; */
+    /* width: 75%; */
+   
+}
+
+
+.menu_content h3{
+    background: var(--theme_color);
+    color: var(--overlay_color);
+    text-align: left;
+}
+
+.local_div{
+
+    /* position: relative; */
+
+}

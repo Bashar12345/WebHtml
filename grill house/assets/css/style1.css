@@ -1,0 +1,53 @@
+/* common code start */
+:root {
+    --brand-color: #87d37c;
+    --light-color: #fff;
+    --dark-color: #000;
+    --soft-dark: #39393a;
+    --soft-color: #e1e1e1;
+    --transition: .5s linear; 
+}
+
+.container {
+    min-width: 400px;
+    max-width: 1200px;
+}
+
+.brand-color {
+    color: var(--brand-color);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* common code end */
+/* header section start */
+header {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../photos/banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* navbar section start */
+.nav-link {
+    color: var(--light-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: var(--brand-color);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--brand-color);
+}
+
+/* navbar section end */
+
+/* banner section start */
+
+
+/* about us section end */
